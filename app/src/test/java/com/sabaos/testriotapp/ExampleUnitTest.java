@@ -1,4 +1,4 @@
-package com.sabaos.core;
+package com.sabaos.testriotapp;
 
 import org.junit.Test;
 
