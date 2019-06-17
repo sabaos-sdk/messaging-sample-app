@@ -18,6 +18,8 @@ public class SabaClientService extends ClientService {
 
         // the data parameter is the message. You can manipulate it as you wish.
         final String data1 = data;
+        //this code in used to display received message as a notification.
+        //since we're in the background, we need to use Looper to access UI
         new Handler(Looper.getMainLooper()).post(new Runnable() {
             @Override
             public void run() {
